@@ -6,10 +6,10 @@ Initial setup using [Next.js](https://nextjs.org/) framework and [Docker](https:
 
 ```bash
 # Clone the project
-$ git clone git@github.com:salinatomass/docker-examples.git -b nextjs-app --single-branch nextjs-app
+$ git clone git@github.com:salinatomass/docker-examples.git -b nextjs-app --single-branch my-project
 
 # Go to the project directory
-$ cd nexjs-app
+$ cd my-project
 
 # Install dependencies
 $ npm install
@@ -22,10 +22,10 @@ $ npm install
 $ docker compose up -d
 
 # build
-$ docker build -t nextjs-prod -f ./build/production.Dockerfile .
+$ docker build -t my-project-prod -f ./build/production.Dockerfile .
 
 # production container
-$ docker run -d --name prod -p 4000:4000 nextjs-prod
+$ docker run -d --name prod -p 3000:3000 my-project-prod
 ```
 
 ## Run Locally
@@ -44,7 +44,7 @@ $ npm run start
 ## Stay in touch
 
 - Author: [@salinatomass](https://salinatomass.netlify.app)
-- Repository: [Link](https://github.com/salinatomass/docker-examples/tree/master/nestjs-app)
+- Repository: [Link](https://github.com/salinatomass/docker-examples)
 
 ## Support
 
