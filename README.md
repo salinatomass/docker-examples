@@ -6,10 +6,10 @@ Initial setup using Node.js with MongoDB and [Docker](https://www.docker.com/).
 
 ```bash
 # Clone the project
-$ git clone git@github.com:salinatomass/docker-examples.git -b my-app --single-branch node-app
+$ git clone git@github.com:salinatomass/docker-examples.git -b node-app --single-branch my-project
 
 # Go to the project directory
-$ cd my-app
+$ cd my-project
 
 # Install dependencies
 $ npm install
@@ -22,10 +22,10 @@ $ npm install
 $ docker compose up -d
 
 # build
-$ docker build -t my-app-prod -f ./build/production.Dockerfile .
+$ docker build -t my-project-prod -f ./build/production.Dockerfile .
 
 # production container
-$ docker run -d -p 3000:3000 my-app-prod
+$ docker run -d -p 3000:3000 my-project-prod
 ```
 
 ## Run Locally
@@ -48,7 +48,7 @@ $ npm run test
 ## Stay in touch
 
 - Author: [@salinatomass](https://salinatomass.netlify.app)
-- Repository: [Link](https://github.com/salinatomass/docker-examples/tree/master/nestjs-app)
+- Repository: [Link](https://github.com/salinatomass/docker-examples)
 
 ## Support
 
