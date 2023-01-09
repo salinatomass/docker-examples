@@ -1,6 +1,6 @@
 services:
   app:
-    image: nextjs-with-docker
+    image: nextjs-app
     build: .
     ports:
       - '3000:3000'
