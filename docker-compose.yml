@@ -1,7 +1,9 @@
 services:
   app:
-    image: nextjs-app
-    build: .
+    image: nextjs-with-docker
+    build:
+      context: .
+      dockerfile: ./build/development.Dockerfile
     ports:
       - '3000:3000'
     volumes:

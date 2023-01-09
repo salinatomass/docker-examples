@@ -1,6 +1,6 @@
 FROM node:18.12.1-alpine
 
-COPY ["package.json", "package-lock.json", "/usr/src/"]
+COPY ["package.json", "/usr/src/"]
 
 WORKDIR /usr/src
 
