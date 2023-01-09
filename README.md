@@ -6,33 +6,33 @@ This is a collection of different sample applications that use Docker. They are 
 
 ### Node + MongoDB + Docker
 
-In Branch: `node-app`
+In Branch: [node-app](https://github.com/salinatomass/docker-examples/tree/node-app)
 
 ```bash
 # Clone the project
-$ git clone git@github.com:salinatomass/docker-examples.git -b my-project --single-branch node-app
+$ git clone git@github.com:salinatomass/docker-examples.git -b node-app --single-branch my-project
 ```
 
 ---
 
 ### Nest.js + PostgeSQL + Docker
 
-In Branch: `nestjs-app`
+In Branch: [nestjs-app](https://github.com/salinatomass/docker-examples/tree/nestjs-app)
 
 ```bash
 # Clone the project
-$ git clone git@github.com:salinatomass/docker-examples.git -b nestjs-project --single-branch my-project
+$ git clone git@github.com:salinatomass/docker-examples.git -b nestjs-app --single-branch my-project
 ```
 
 ---
 
-#### Next.js + Docker
+### Next.js + Docker
 
-In Branch: `nextjs-app`
+In Branch: [nextjs-app](https://github.com/salinatomass/docker-examples/tree/nextjs-app)
 
 ```bash
 # Clone the project
-$ git clone git@github.com:salinatomass/docker-examples.git -b my-project --single-branch next-app
+$ git clone git@github.com:salinatomass/docker-examples.git -b nextjs-app --single-branch my-project
 ```
 
 ---
