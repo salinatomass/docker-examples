@@ -1,6 +1,6 @@
-# Node.js with Docker
+# Node.js + MongoDB with Docker
 
-Initial setup using Node.js with MongoDB and [Docker](https://www.docker.com/).
+Initial setup using Node.js and MongoDB with [Docker](https://www.docker.com/).
 
 ## Installation
 
