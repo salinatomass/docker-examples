@@ -53,7 +53,6 @@ $ docker run -d -p 3000:3000 my-project-prod
 ## Stay in touch
 
 - Author: [@salinatomass](https://salinatomass.netlify.app)
-- Repository: [Link](https://github.com/salinatomass/docker-examples/tree/master/nestjs-app)
 
 ## Support
 
